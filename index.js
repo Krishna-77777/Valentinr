@@ -33,7 +33,7 @@ function yes() {
     const gif = document.getElementById('gif');
     const text = document.getElementById('text');
 
-    gif.src = './assets/kissing-bear.gif';
+    gif.src = './kissing-bear.gif';
     text.innerHTML = 'I knew you wont say no!';
 
     yesBtn.style.display = 'none';
